@@ -139,7 +139,7 @@ public class GreenhouseControl extends Controller {
 				addEvent(event);
 			}
 			start();
-			// addEvent(this);
+			addEvent(this);
 		}
 
 		@Override
