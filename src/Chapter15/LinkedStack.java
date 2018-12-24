@@ -25,6 +25,7 @@ public class LinkedStack<T> {
 
 	public void push(final T item) {
 		top = new Node<T>(item, top);
+		System.out.println(top);
 	}
 
 	public T pop() {
